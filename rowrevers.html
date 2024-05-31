@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row-Reverse Flexboxes</title>
+    <style>
+        .multiple-picture{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+        .profile-card {
+            width: 400px;
+            height: 500px;
+            background-color: #f7f2f2;
+            border: solid 1px #800000;
+            margin: 10px 20px;
+            padding: 10px;
+            border-radius: 14px;
+            box-shadow: -8px -8px 4px grey;
+        
+        }
+        .movie-img {
+            height: 250px;
+            width: 350px;
+            padding: 10px;
+            border-radius: 60px;
+            box-shadow: black;
+        }
+         
+        .movie-name{
+           
+           text-align: center;
+           color: #e60000;
+         
+       }
+       h3{
+       text-shadow: 1px 1px;
+       color:#220033;
+       text-align: center;
+       margin-right: 10px;
+       font-size: 30px;
+      }
+       
+    </style>
+</head>
+<body>
+    <div class="multiple-picture">
+        <div class="profile-card">
+         <img  src="salaar.jpg" class="movie-img"/>
+         <h1  class="movie-name">SALAAR</h1>
+         <h3>Rating : 6.5</h3>
+         <h3>Lang : Hindi</h3>
+        </div>
+     
+        <div class="profile-card">
+         <img src="sitaram.jpg" class="movie-img" />
+         <h1 class="movie-name">SITARAM</h1>
+         <h3>Rating :8.5</h3>
+         <h3>Lang : Hindi</h3>
+       </div>
+     
+        <div class="profile-card">
+         <img src="dearcomrade.jpg" class="movie-img"/>
+         <h1 class="movie-name">DEAR COMRADE</h1>
+         <h3>Rating : 7.3</h3>
+         <h3>Lang :  Telugu</h3>
+        </div> 
+</div>
+</body>
+</html>
